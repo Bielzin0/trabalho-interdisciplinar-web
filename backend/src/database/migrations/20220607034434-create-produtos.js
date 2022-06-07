@@ -17,6 +17,10 @@ module.exports = {
         type: Sequelize.INTEGER,
         allowNull: false,
       },
+      marca: {
+        type: Sequelize.INTEGER,
+        allowNull: false,
+      },
       updatedAt: {
         type: Sequelize.DATE,
         allowNull: false,

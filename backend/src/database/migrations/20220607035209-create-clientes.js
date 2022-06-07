@@ -13,8 +13,16 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false,
       },
-      endereco: {
-        type: Sequelize.STRING,
+      telefone: {
+        type: Sequelize.INTEGER,
+        allowNull: false,
+      },
+      cep: {
+        type: Sequelize.INTEGER,
+        allowNull: false,
+      },
+      numero: {
+        type: Sequelize.INTEGER,
         allowNull: false,
       },
       updatedAt: {
