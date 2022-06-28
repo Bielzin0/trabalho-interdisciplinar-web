@@ -1,7 +1,8 @@
+const { Console } = require("console");
+
+const butao = document.querySelector('#botao3');
+
 const btn = document.querySelector('#botao');
-
-
-
 
 btn.addEventListener('click', () => {
     const produto = getDadosForm()
