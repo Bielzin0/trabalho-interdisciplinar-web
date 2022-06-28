@@ -66,7 +66,7 @@ async function recebeDados () {
               <div class="card" style="width:80%; border-radius: 15px;padding-bottom: 15px;">
                 <div class="card-body">
                   <p class="card-title">Lucro Bruto (R$)</p>
-                  <p class="card-text">R$${totalProdutos*5}</p>
+                  <p class="card-text">R$${totalProdutos*4.5}</p>
                 </div>
               </div>
             </div>
@@ -74,7 +74,7 @@ async function recebeDados () {
               <div class="card" style="width:80%; border-radius: 15px;padding-bottom: 15px;">
                 <div class="card-body">
                   <p class="card-title">Lucro líquido (R$)</p>
-                  <p class="card-text">R$${(totalProdutos*5)*0.7}</p>
+                  <p class="card-text">R$${(totalProdutos*4.5)*0.65}</p>
                 </div>
               </div>
             </div>
