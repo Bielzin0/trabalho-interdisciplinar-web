@@ -1,7 +1,7 @@
 const express = require("express");
 
 const ClientesController = require ('./controllers/ClientesController');
-const ProdutosController = require ('./controllers/ProdutosController')
+const ProdutosController = require ('./controllers/ProdutosController');
 
 const UsuarioController = require("./controllers/UsuarioController");
 const Clientes = require("./models/Clientes");
