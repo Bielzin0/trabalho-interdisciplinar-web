@@ -57,7 +57,7 @@ async function recebeDados () {
         <div class='col-lg-4 col-sm-12' style="padding-bottom: 15px;">
               <div class="card" style="width:80%; border-radius: 15px;padding-bottom: 15px;">
                 <div class="card-body" id="unidadeprodutos">
-                  <p class="card-title">Total de Pedidos (Unidade)</p>
+                  <p class="card-title">Total de Pedidos</p>
                   <p class="card-text" id="pedidos">${totalPedidos} pedidos</p>
                 </div>
               </div>
